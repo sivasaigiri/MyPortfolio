@@ -1,11 +1,9 @@
 import React from 'react';
-import './App.css';
-
-import React from 'react';
+import './App.css';  // CSS styles
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import Internships from './components/Internships';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -18,10 +16,10 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/Internships">Internships</Link> {/* Corrected spelling here */}
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/Projects">Projects</Link>
             </li>
           </ul>
         </nav>
@@ -29,8 +27,8 @@ function App() {
         {/* Route Definitions */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Internships" element={<Internships />} /> {/* Consistent spelling in route */}
+          <Route path="/Projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
@@ -38,4 +36,3 @@ function App() {
 }
 
 export default App;
-
