@@ -3,8 +3,8 @@ import React from 'react';
 function Internships() {
   return (
     <div>
-      <h2>About Page</h2>
-      <p>This is the about page.</p>
+      <h2>Internships</h2>
+      <p>This is the Internships Page.</p>
     </div>
   );
 }

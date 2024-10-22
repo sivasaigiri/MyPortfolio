@@ -4,7 +4,7 @@ function Projects() {
   return (
     <div>
       <h2>Contact Page</h2>
-      <p>Get in touch with us!</p>
+      <p>This is the Projects Page</p>
     </div>
   );
 }
