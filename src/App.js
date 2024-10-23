@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Internships from './components/Internships';
 import Projects from './components/Projects';
+import CenteredImage from './CenteredImage';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
             </li>
           </ul>
         </nav>
+        <div>
+        <h1>Welcome to My Centered Image App</h1>
+        <CenteredImage />  {/* Using the CenteredImage component */}
+        </div>
 
         {/* Route Definitions */}
         <Routes>
@@ -34,5 +39,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
