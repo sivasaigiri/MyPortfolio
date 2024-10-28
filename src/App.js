@@ -26,7 +26,6 @@ function App() {
         </nav>
         <div>
         <h1>Welcome to My Centered Image App</h1>
-        <CenteredImage />  {/* Using the CenteredImage component */}
         </div>
 
         {/* Route Definitions */}
