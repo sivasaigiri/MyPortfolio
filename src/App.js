@@ -26,7 +26,7 @@ function App() {
           </ul>
         </nav>
         <div>
-        <h1>Welcome to My Cedddntered Image App</h1>
+        <h1>Welcome to my Developer portfolio</h1>
         </div>
 
         {/* Route Definitions */}
